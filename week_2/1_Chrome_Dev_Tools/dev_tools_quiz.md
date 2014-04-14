@@ -25,3 +25,19 @@
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
+
+
+
+Answers:
+
+The Dev Tools in Google chrome can easily be opened by pressing ‘Command+Option i’ or by clicking Window--->Developer--->Developer Tools from the dock. From there you can: 
+- debug javascripts in the console
+- edit HTML/CSS in real time from elements
+- optimize performance in 
+
+[Screenshot](http://i.imgur.com/KhJLV0p.png)
+On postmachina.com the background color is #0b0f11.  I also don’t know why I can’t change the color of the quote. 
+ 
+The largest image on TicketsWizard by file size is the picture of Times Square. I found this by navigating to the resources tab, expanding the frames folder, then selecting the TicketWizard folder. I then compared the displayed file sizes of the images. The URL is http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png and the file is 316 kb. According to PageSpeed Insights, the best way to optimize the site and to eliminate (~886kb of data) would be to optimize the image sizes.
+
+[CodeSchool Points](http://i.imgur.com/iqJGgkL.png)
