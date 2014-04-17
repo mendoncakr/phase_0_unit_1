@@ -12,7 +12,7 @@
 
 // __________________________________________
 // Write your code below.
-
+var secretNumber = 7;
 
 
 
