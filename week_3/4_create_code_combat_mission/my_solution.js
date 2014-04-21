@@ -67,7 +67,9 @@ this.moveUp();
 this.say("Hooray!");
 
 // Refactored Code
-
+// I didn't find many ways to refactor our code even though the code seems to repeat itself
+// However, I did find some syntax errors along the way, such as changing == to ===, spelling, etc.
+//
 
 // Reflection
 // The directions were pretty unclear as to what eactly was expected from us, but we managed to go with the flow. Other than getting another pairing experience, I
